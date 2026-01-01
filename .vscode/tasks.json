@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Run C++ (MSYS2 MINGW64)",
+      "type": "shell",
+      "command": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": [
+        "-lc",
+        "cd \"$(cygpath '${workspaceFolder}')\" && export MSYSTEM=MINGW64 && export PATH=/mingw64/bin:$PATH && g++ main.cpp MLL.cpp -o main && ./main"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

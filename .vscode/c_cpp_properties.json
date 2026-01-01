@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "MSYS2 MinGW64",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/msys64/mingw64/include",
+        "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/*/include",
+        "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/*/include/c++",
+        "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/*/include/c++/x86_64-w64-mingw32"
+      ]
+    }
+  ],
+  "version": 4
+}
